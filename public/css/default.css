@@ -1,0 +1,31 @@
+main {
+    height: 100vh;
+}
+
+header {
+    background-color: aliceblue;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav > div > a {
+    margin: 0 5px;
+}
+
+footer {
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top: 20px;
+    position: sticky;
+    bottom: 0;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+}
